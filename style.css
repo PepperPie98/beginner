@@ -1,0 +1,101 @@
+/**{
+} this is for whole thing
+*/
+body{
+	background-color:#f4f4f4;
+	color:#555555;
+	
+	/*
+	font-family: Comic Sans MS;
+	font-size: 18px;
+	font-weight:normal;
+	*/
+	font: normal  18px Comic Sans MS;
+	
+	line-height: 2em;
+;}
+
+a:hover{
+color:red;
+}
+
+.A1{
+	background-color:#777;
+	color: #fff;
+	width: 80%;
+	margin:auto;
+	border: 5px black solid;
+	border-width: 10px;
+	
+	padding: 20px;
+	margin: 20px;
+	
+}
+
+.A1 h1{
+	color: pink;
+	font-style: italic; 
+	text-decoration: underline;
+}
+
+.A2{
+	
+	background-color:#222;
+	color: #FF0000;
+	width: 80%;
+	margin:auto;
+	border: 5px green solid;
+	border-width: 10px;
+	
+	padding: 20px;
+	margin: 20px;
+}
+
+.b1{
+	
+	
+	padding: 20px;
+	margin: 5px;
+}
+
+.categorioes {
+	background-color:grey;
+	color: #fff;
+	width: 30px;
+		width: 80%;
+		border:20px brown solid;
+	padding: 20px;
+		margin: 20px;
+		border-width:20px;
+}
+
+#sidebar{
+float:right;
+width:30%;
+box-sizing: border-box;
+}
+
+.p-box h1{
+	color:orange;
+	position:relative;
+	width:480px;
+	height:500px;
+	border:10px solid #001;
+	margin:20px;
+	background-image:url("./sgma.jpg");
+	background-repeat:no-repeat;
+	background-position:center-top;
+	
+}
+
+#navbar ul{
+padding:0;
+line-style:none;
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+	float:none;
+	}
+}
